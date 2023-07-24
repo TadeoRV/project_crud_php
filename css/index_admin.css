@@ -1,0 +1,92 @@
+body {
+    background-color: #03b373;
+    color: #2b2d42;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#newProject {
+    background-color: #03b373;
+    color: #2b2d42;
+    border-radius: 10px;
+    border: solid;
+    margin: 1rem;
+    margin-top: 0;
+}
+
+form div {
+    margin: 0.5rem;
+}
+
+.table-display {
+    display: none;
+    background-color: #2b2d42;
+    border-radius: 20px;
+}
+
+.table {
+    text-decoration: none;
+    color: #8d99ae;
+}
+
+.table th {
+    font-weight: 700;
+    font-size: large;
+}
+
+.table td {
+    font-weight: 500;
+    font-size: medium;
+    padding: 2rem 0;
+    border: none;
+}
+
+tr:nth-child(even) {
+    background-color: #686982;
+    color: #2b2d42;
+}
+
+.img.td {
+    width: initial;
+}
+
+.table-img {
+    border-radius: 20px;
+    width: 300px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+
+}
+
+.fa-icon {
+    color: #8d99ae;
+    text-decoration: none;
+}
+
+tr:nth-child(even) .fa-icon {
+    color: #2b2d42;
+}
+
+.newproject-container {
+    display: none;
+}
+
+.card-display .card {
+    background-color: #686982;
+    color: #2b2d42;
+}
+
+.card-icon {
+    color: #2b2d42;
+    text-decoration: none;
+}
+
+
+@media screen and (min-width: 768px) {
+    .card-display {
+        display: none;
+    }
+
+    .table-display {
+        display: block;
+    }
+}

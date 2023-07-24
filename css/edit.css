@@ -1,0 +1,21 @@
+.old-img {
+    width: 70%
+}
+
+form p {
+    margin: 0;
+    font-weight: 500;
+    font-size: large;
+}
+
+form label {
+    margin: 0.5rem;
+    font-weight: 500;
+    font-size: large;
+}
+
+@media screen and (min-width: 768px) {
+    .old-img {
+        width: 50%;
+    }
+}
